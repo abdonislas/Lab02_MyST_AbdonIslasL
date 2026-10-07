@@ -1,0 +1,23 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Cache de pruebas
+.pytest_cache/
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Resultados regenerables con main.py
+resultados/
+
+# Editor
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db

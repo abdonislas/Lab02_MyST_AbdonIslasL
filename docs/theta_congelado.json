@@ -1,0 +1,123 @@
+{
+  "optimizado_desde": "2023-11-07 09:30:00-05:00",
+  "optimizado_hasta": "2026-03-06 15:30:00-05:00",
+  "parametros": {
+    "tendencia": {
+      "estilo": "ruptura",
+      "bb_n": 20,
+      "sto_bajo": 20,
+      "memoria": 3,
+      "tp_atr": 12.0,
+      "max_velas": 70,
+      "bb_k": 2.127218912083758,
+      "rsi_bajo": 31,
+      "ema_n": 217,
+      "sl_atr": 3.9973118846949554,
+      "fraccion": 0.2155789016641461
+    },
+    "reversion": null,
+    "crisis": {
+      "estilo": "ruptura",
+      "bb_n": 20,
+      "sto_bajo": 20,
+      "memoria": 3,
+      "tp_atr": 12.0,
+      "max_velas": 70,
+      "bb_k": 2.830611036384986,
+      "rsi_bajo": 30,
+      "ema_n": 172,
+      "sl_atr": 9.58885378486769,
+      "fraccion": 0.20534082868008435
+    }
+  },
+  "calmar_entrenamiento": {
+    "tendencia": 1.2475939790669748,
+    "reversion": 0.007454794805409019,
+    "crisis": 1.7143045874701057
+  },
+  "calmar_meseta": {
+    "tendencia": 1.0984246646902995,
+    "reversion": -0.006493769004627068,
+    "crisis": 1.6553357824696324
+  },
+  "regimen_kmeans": {
+    "media": [
+      -4.544536514270744,
+      0.4621825335835725
+    ],
+    "escala": [
+      0.38574193563457154,
+      0.18168340234101432
+    ],
+    "centros": [
+      [
+        -0.3607092480635961,
+        0.897813323602413
+      ],
+      [
+        1.1612215617628185,
+        -0.05588482375643552
+      ],
+      [
+        -0.5995690694705301,
+        -0.9264763812896487
+      ]
+    ],
+    "nombres": {
+      "0": "tendencia",
+      "2": "reversion",
+      "1": "crisis"
+    }
+  },
+  "ajustes": {
+    "semilla": 42,
+    "estilo": "ruptura",
+    "modo": "anchored",
+    "operar": [
+      "tendencia",
+      "reversion",
+      "crisis"
+    ],
+    "fijos": {
+      "estilo": "ruptura",
+      "bb_n": 20,
+      "sto_bajo": 20,
+      "memoria": 3,
+      "tp_atr": 12.0,
+      "max_velas": 70
+    },
+    "umbral_meseta": 0.0,
+    "n_aleatorias": 50,
+    "n_tpe": 100,
+    "min_operaciones": 6,
+    "meses_train": 6,
+    "embargo": 7
+  },
+  "activo": "NVS",
+  "datos": "data/nvs_1h.csv",
+  "sha256_datos": "301327443d7bf8096c0c7a487b64a78a8dcba369513c7ba67ba465d7a2e19350",
+  "split": {
+    "train": [
+      "2023-11-07 09:30:00-05:00",
+      "2025-08-07 15:30:00-04:00",
+      3046
+    ],
+    "test": [
+      "2025-08-08 09:30:00-04:00",
+      "2026-03-09 15:30:00-04:00",
+      1004
+    ],
+    "validation": [
+      "2026-03-10 09:30:00-04:00",
+      "2026-10-06 15:30:00-04:00",
+      1022
+    ]
+  },
+  "congelado_en": "2026-10-06T20:57:45",
+  "versiones": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "optuna": "5.0.0"
+  }
+}
