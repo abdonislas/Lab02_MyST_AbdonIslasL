@@ -1,6 +1,5 @@
 # Laboratorio 02: Estrategia de trading con análisis técnico
 
-- Ian Carlo Escalante Martínez
 - Abdon Islas
 
 **Nivel de alcance: B** (estrategia multi-indicador, backtesting, optimización, walk-forward y detección dinámica de régimen de mercado).
