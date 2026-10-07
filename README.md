@@ -30,7 +30,6 @@ El diseño se eligió solo con el walk-forward de train + test, entre cuatro var
 | Ruptura, crisis sin operar | −0.14 |
 | **Ruptura, tres regímenes (elegida)** | **0.50** |
 
-Nota: el PDF asigna BTCUSDT de 5 minutos al Nivel B; el cambio de activo y de frecuencia se declara aquí y en el reporte. El walk-forward usa 1 mes de prueba con paso mensual y al menos 6 meses de entrenamiento, como el que el PDF especifica para acciones.
 
 ## Estructura del proyecto
 
